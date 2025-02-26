@@ -85,12 +85,12 @@ section {
     padding: 65px 0;
   }
 
-  .page__header {
+  /* .page__header {
     position: fixed;
     left: calc(50% - 50vw);
     top: 0;
     height: 100%;
-  }
+  } */
 }
 
 @media (min-width: 1440px) {
