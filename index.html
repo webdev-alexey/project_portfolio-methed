@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кир Сорокин - создание сайтов для Вашего бизнеса</title>
-
     <link rel="stylesheet" href="css/index.css" />
+
+    <script defer src="js/swiper-bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
   </head>
 
   <body class="page">
@@ -132,9 +134,9 @@
         <div class="container">
           <h2 class="portfolio__title">Портфолио</h2>
 
-          <div class="portfolio__slider">
-            <ul class="portfolio__list">
-              <li class="portfolio__item">
+          <div class="portfolio__slider swiper">
+            <ul class="portfolio__list swiper-wrapper">
+              <li class="portfolio__item swiper-slide">
                 <article class="card">
                   <img
                     class="card__picture"
@@ -150,7 +152,7 @@
                 </article>
               </li>
 
-              <li class="portfolio__item">
+              <li class="portfolio__item swiper-slide">
                 <article class="card">
                   <img
                     class="card__picture"
@@ -166,7 +168,7 @@
                 </article>
               </li>
 
-              <li class="portfolio__item">
+              <li class="portfolio__item swiper-slide">
                 <article class="card">
                   <img
                     class="card__picture"
@@ -182,7 +184,7 @@
                 </article>
               </li>
 
-              <li class="portfolio__item">
+              <li class="portfolio__item swiper-slide">
                 <article class="card">
                   <img
                     class="card__picture"
@@ -198,7 +200,7 @@
                 </article>
               </li>
 
-              <li class="portfolio__item">
+              <li class="portfolio__item swiper-slide">
                 <article class="card">
                   <img
                     class="card__picture"
@@ -214,6 +216,9 @@
                 </article>
               </li>
             </ul>
+
+            <button class="portfolio__arrow portfolio__arrow_left"></button>
+            <button class="portfolio__arrow portfolio__arrow_right"></button>
           </div>
         </div>
       </section>
