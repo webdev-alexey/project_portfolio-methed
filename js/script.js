@@ -21,3 +21,17 @@ new Swiper(".swiper", {
     },
   },
 });
+
+// Бургер меню
+$(".header__contacts-burger").click(() => {
+  $(".header__contacts").slideToggle();
+});
+
+// Модальное окно
+$(".present__order-btn").click(() => {
+  $(".page__overlay_modal-callback").fadeIn(400).css("display", "flex");
+});
+
+$(".modal__close").click(() => {
+  $(".page__overlay_modal-callback").fadeOut(400);
+});
